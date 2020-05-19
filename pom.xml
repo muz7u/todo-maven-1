@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>todo-microservice-2</artifactId>
+	<artifactId>todo-maven-2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>todo-microservice-2</name>
+	<name>todo-maven-2</name>
 	<description>client</description>
 
 	<properties>
@@ -126,7 +126,7 @@
     </configuration>
 </plugin>
 </plugins>
-<finalName>todo</finalName>
+<finalName>app</finalName>
 	</build>
 
 </project>

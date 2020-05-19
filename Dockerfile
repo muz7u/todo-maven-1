@@ -1,4 +1,4 @@
 FROM openjdk:8
-EXPOSE 2222
-ADD target/todo.jar todo.jar
-ENTRYPOINT ["sh", "-c", "java -jar /todo.jar"]
+EXPOSE 9999
+ADD target/*.jar app.jar
+ENTRYPOINT ["sh", "-c", "java -jar /app.jar"]
